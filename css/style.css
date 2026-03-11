@@ -30,4 +30,24 @@ td, th {
     text-align: left;
     font-weight: bold;
     }
-    
+    /*5. Cell Padding & Borders*/
+    .planet-table th,
+    .planet-table td {
+      padding :12px 15px;
+      border-bottom: 1px solid #dddddd;
+      }
+    /* 6. Zebra stRiping */
+    .planet-table tbody tr:nth-of-type (even){
+      background-color: #f3f3f3;
+      }
+    /*7.Hover Effect */
+    .planet-table tbody tr: hover {
+    background-color: #flflfl;
+    cursor: default;
+    }
+    /*8. Specific Column Styling */
+    .planet-table {
+    font-weight: bold;
+    font-style: italic;
+    color: #009879;
+    }
